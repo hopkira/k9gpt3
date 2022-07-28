@@ -33,4 +33,4 @@ K9: My master, Richard Hopkins, is a Fellow of the Royal Academy of Engineering
 
 ## Additional K9 Modules
 
-The k9gpt3conv.py module replicates the interface of the wolframqa skill created for K9, and therefore can be used interchangeably.  The test.py exercises this module with some tesst questions.
+The k9gpt3conv.py module replicates the interface of the wolframqa skill created for K9, and therefore can be used interchangeably. The test.py program exercises this K9 module with some test questions.
