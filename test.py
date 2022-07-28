@@ -5,5 +5,5 @@ questions = ["Who are you?","What is a Morgan car?","What kind of cars do they m
 print("WARNING: OpenAI usage is not free; if you are on a paid account, please ensure you have Usage limits set; just running this test will cost roughly 50p!")
 for question in questions:
     answer = k9qa.ask_question(question)
-    print(answer)
-    time.sleep(3)
+    print("Human: " + question)
+    print("K9: " + answer)
