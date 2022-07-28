@@ -3,6 +3,9 @@ import openai
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+#text-davinci-002
+#text-curie-001
+
 class K9QA:
     """A class to simplify conversational acces to the Wolfram Mathematic API"""
 
@@ -16,7 +19,7 @@ class K9QA:
     def ask_question(self, question):
         """Exercises the API and stores conversation details between calls"""
         response_obj = openai.Completion.create(
-        model = "text-davinci-002",
+        model = "text-curie-001",
         prompt = self.base_story + self.conversation + question + self.k9_suffix,
         temperature = 1,
         max_tokens = 40,
