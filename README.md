@@ -1,4 +1,4 @@
-# Chatbot with K9's personality using GPT-3
+# Simple chatbot with K9's personality using GPT-3
 
 This very simple program (k9gpt.py) provides a text based chatbot facility for a robot dog that is trained to interact like K9.  
 
